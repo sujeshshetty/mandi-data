@@ -1,0 +1,60 @@
+name: Mandi 30-Minute Prices Sync
+
+on:
+  schedule:
+    # Run every 30 minutes around the clock (48 times/day) on public repository
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mandi-public-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Tesseract OCR for Captcha Auto-Solving
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr
+
+      - name: Run Mandi Price Sync
+        env:
+          MANDI_OUTPUT_DIR: "."
+          AGMARKNET_TOKEN: ${{ secrets.AGMARKNET_TOKEN }}
+        run: |
+          python tools/sync_prices.py
+
+      - name: Commit and Push Snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config http.postBuffer 524288000
+          git add prices_latest.json prices_latest.json.gz
+          if git diff --staged --quiet; then
+            echo "No changes in public prices snapshot."
+          else
+            git commit -m "chore: mandi prices 30m update ($(date -u +"%Y-%m-%d %H:%M UTC"))"
+            for attempt in 1 2 3 4; do
+              if git pull --rebase origin main && git push origin main; then
+                echo "[✓] Successfully updated public mandi-data snapshot!"
+                break
+              fi
+              echo "[WARN] Push attempt $attempt failed, retrying in 5s..."
+              sleep 5
+            done
+          fi
