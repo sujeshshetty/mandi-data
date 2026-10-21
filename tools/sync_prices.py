@@ -563,10 +563,14 @@ def main():
         print(f"[*] Resolved current Agmarknet date: {date_str} (districts mapped: {len(market_to_district)})")
         records, states_ok = sync_all_states(date_str, market_to_district)
 
-        # Also fetch yesterday's data if today's count is partial (< 5000 records) or empty,
-        # so markets that haven't submitted today's closing report yet still have yesterday's genuine price.
+        # Also fetch yesterday's data if today's count is partial (< 5000 records) or if yesterday
+        # is not already well-populated in existing_records, so markets/commodities that haven't
+        # reported today still retain yesterday's genuine closing price and arrivalDate.
         yesterday_str = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
-        if len(records) < 5000:
+        existing_yesterday_count = sum(
+            1 for r in existing_records if str(r.get("arrivalDate", "")) == yesterday_str
+        )
+        if len(records) < 5000 or existing_yesterday_count < 3000:
             print(f"[*] Supplementing {date_str} ({len(records)} records) with {yesterday_str} closing prices...")
             y_records, _ = sync_all_states(yesterday_str, market_to_district)
             if not records and y_records:
@@ -587,13 +591,37 @@ def main():
         date_str = existing_date or (datetime.utcnow() + timedelta(hours=5, minutes=30)).strftime("%Y-%m-%d")
 
     if existing_records and records:
-        cutoff_str = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=7)).strftime("%Y-%m-%d")
+        cutoff_7d_str = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=7)).strftime("%Y-%m-%d")
+        cutoff_30d_str = (datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=30)).strftime("%Y-%m-%d")
         recent_existing = [
             r for r in existing_records
-            if str(r.get("arrivalDate", "")) >= cutoff_str
+            if str(r.get("arrivalDate", "")) >= cutoff_7d_str
             and str(r.get("arrivalDate", "")) <= date_str
         ]
         records = merge_records(records, recent_existing)
+
+        # Also retain the single latest record per (state, market, commodity) up to 30 days
+        # if that commodity+location has not reported in the 7-day window.
+        covered_smc = {
+            (r["state"].strip().lower(), r["market"].strip().lower(), r["commodity"].strip().lower())
+            for r in records
+        }
+        older_candidates = sorted(
+            [
+                r for r in existing_records
+                if cutoff_30d_str <= str(r.get("arrivalDate", "")) < cutoff_7d_str
+            ],
+            key=lambda x: str(x.get("arrivalDate", "")),
+            reverse=True,
+        )
+        fallback_older = []
+        for r in older_candidates:
+            smc = (r["state"].strip().lower(), r["market"].strip().lower(), r["commodity"].strip().lower())
+            if smc not in covered_smc:
+                covered_smc.add(smc)
+                fallback_older.append(r)
+        if fallback_older:
+            records = merge_records(records, fallback_older)
     elif existing_records and not records:
         print(f"[*] Using {len(existing_records)} preserved records from existing snapshot.")
         records = existing_records
