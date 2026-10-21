@@ -5,6 +5,11 @@ on:
     # Fallback staggered cron in case a runner is ever preempted
     - cron: "11,41 * * * *"
   workflow_dispatch:
+    inputs:
+      delay_seconds:
+        description: "Target interval in seconds before dispatching next run"
+        required: false
+        default: "1800"
 
 permissions:
   contents: write
@@ -80,30 +85,42 @@ jobs:
         env:
           DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
           START_EPOCH: ${{ steps.timer.outputs.start_epoch }}
+          INPUT_DELAY: ${{ github.event.inputs.delay_seconds }}
         run: |
           if [ -z "$DATA_REPO_TOKEN" ]; then
-            echo "[WARN] DATA_REPO_TOKEN not set; relying on cron schedule."
-            exit 0
+            echo "[ERROR] DATA_REPO_TOKEN not set!"
+            exit 1
           fi
           NOW_EPOCH=$(date +%s)
           ELAPSED=$((NOW_EPOCH - START_EPOCH))
-          TARGET_INTERVAL=1800
+          TARGET_INTERVAL="${INPUT_DELAY:-1800}"
           REMAINING=$((TARGET_INTERVAL - ELAPSED))
           if [ "$REMAINING" -gt 0 ]; then
             echo "[*] Sync committed in ${ELAPSED}s. Waiting ${REMAINING}s until exact 30-minute mark to dispatch next run..."
             sleep "$REMAINING"
           fi
           echo "[*] Triggering next 30-minute workflow_dispatch run on sujeshshetty/mandi-data..."
+          DISPATCHED=0
           for attempt in 1 2 3; do
             HTTP_CODE=$(curl -s -o /tmp/dispatch_resp.txt -w "%{http_code}" -X POST \
               -H "Authorization: Bearer ${DATA_REPO_TOKEN}" \
               -H "Accept: application/vnd.github+json" \
               https://api.github.com/repos/sujeshshetty/mandi-data/actions/workflows/mandi_sync.yml/dispatches \
-              -d "{"ref":"main"}")
+              -d '{"ref":"main"}')
             if [ "$HTTP_CODE" = "204" ]; then
               echo "[✓] Next 30-minute sync run dispatched successfully (HTTP 204)!"
-              exit 0
+              DISPATCHED=1
+              break
             fi
             echo "[WARN] Dispatch attempt $attempt returned HTTP $HTTP_CODE: $(cat /tmp/dispatch_resp.txt)"
+            if GH_TOKEN="$DATA_REPO_TOKEN" gh workflow run mandi_sync.yml --repo sujeshshetty/mandi-data --ref main; then
+              echo "[✓] Next 30-minute sync run dispatched via gh CLI!"
+              DISPATCHED=1
+              break
+            fi
             sleep 5
           done
+          if [ "$DISPATCHED" -ne 1 ]; then
+            echo "[ERROR] Failed to dispatch next workflow run!"
+            exit 1
+          fi
