@@ -2,12 +2,13 @@ name: Mandi 30-Minute Prices Sync
 
 on:
   schedule:
-    # Run every 30 minutes around the clock (48 times/day) on public repository
-    - cron: "*/30 * * * *"
+    # Fallback staggered cron in case a runner is ever preempted
+    - cron: "11,41 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: mandi-public-sync
@@ -16,11 +17,18 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
 
     steps:
+      - name: Record Run Start Timestamp
+        id: timer
+        run: |
+          echo "start_epoch=$(date +%s)" >> "$GITHUB_OUTPUT"
+
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,21 +48,62 @@ jobs:
           python tools/sync_prices.py
 
       - name: Commit and Push Snapshot
+        env:
+          DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
+          GIT_TERMINAL_PROMPT: "0"
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "sujeshshetty"
+          git config user.email "sujeshshetty64@gmail.com"
           git config http.postBuffer 524288000
+          if [ -n "$DATA_REPO_TOKEN" ]; then
+            git remote set-url origin "https://x-access-token:${DATA_REPO_TOKEN}@github.com/sujeshshetty/mandi-data.git"
+          fi
           git add prices_latest.json prices_latest.json.gz
           if git diff --staged --quiet; then
             echo "No changes in public prices snapshot."
           else
-            git commit -m "chore: mandi prices 30m update ($(date -u +"%Y-%m-%d %H:%M UTC"))"
+            IST_STR=$(TZ="Asia/Kolkata" date +"%Y-%m-%d %I:%M %p IST")
+            git commit -m "chore: mandi prices 30m update (${IST_STR})"
             for attempt in 1 2 3 4; do
-              if git pull --rebase origin main && git push origin main; then
-                echo "[✓] Successfully updated public mandi-data snapshot!"
+              if git -c http.https://github.com/.extraheader= pull --rebase origin main && \
+                 git -c http.https://github.com/.extraheader= push origin main; then
+                echo "[✓] Successfully updated public mandi-data snapshot at ${IST_STR}!"
                 break
               fi
               echo "[WARN] Push attempt $attempt failed, retrying in 5s..."
               sleep 5
             done
           fi
+
+      - name: Wait for 30-Minute Mark & Dispatch Next Sync
+        if: always()
+        env:
+          DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
+          START_EPOCH: ${{ steps.timer.outputs.start_epoch }}
+        run: |
+          if [ -z "$DATA_REPO_TOKEN" ]; then
+            echo "[WARN] DATA_REPO_TOKEN not set; relying on cron schedule."
+            exit 0
+          fi
+          NOW_EPOCH=$(date +%s)
+          ELAPSED=$((NOW_EPOCH - START_EPOCH))
+          TARGET_INTERVAL=1800
+          REMAINING=$((TARGET_INTERVAL - ELAPSED))
+          if [ "$REMAINING" -gt 0 ]; then
+            echo "[*] Sync committed in ${ELAPSED}s. Waiting ${REMAINING}s until exact 30-minute mark to dispatch next run..."
+            sleep "$REMAINING"
+          fi
+          echo "[*] Triggering next 30-minute workflow_dispatch run on sujeshshetty/mandi-data..."
+          for attempt in 1 2 3; do
+            HTTP_CODE=$(curl -s -o /tmp/dispatch_resp.txt -w "%{http_code}" -X POST \
+              -H "Authorization: Bearer ${DATA_REPO_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/sujeshshetty/mandi-data/actions/workflows/mandi_sync.yml/dispatches \
+              -d "{"ref":"main"}")
+            if [ "$HTTP_CODE" = "204" ]; then
+              echo "[✓] Next 30-minute sync run dispatched successfully (HTTP 204)!"
+              exit 0
+            fi
+            echo "[WARN] Dispatch attempt $attempt returned HTTP $HTTP_CODE: $(cat /tmp/dispatch_resp.txt)"
+            sleep 5
+          done
