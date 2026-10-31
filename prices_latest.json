@@ -1,8 +1,8 @@
 {
   "version": 1,
   "date": "2026-10-31",
-  "updatedAtMs": 1793466346381,
-  "recordsCount": 109743,
+  "updatedAtMs": 1793468151542,
+  "recordsCount": 109805,
   "statesCount": 31,
   "commoditiesCount": 264,
   "records": [
@@ -4200,6 +4200,17 @@
     {
       "state": "Odisha",
       "district": "Nowarangpur",
+      "market": "Nabarangpur(Umerkote) APMC",
+      "commodity": "Maize",
+      "variety": "Hybrid/Local",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2000,
+      "maxPrice": 2000,
+      "modalPrice": 2000
+    },
+    {
+      "state": "Odisha",
+      "district": "Nowarangpur",
       "market": "Nawarangpur APMC",
       "commodity": "Maize",
       "variety": "Hybrid/Local",
@@ -5989,6 +6000,17 @@
       "minPrice": 2355,
       "maxPrice": 2920,
       "modalPrice": 2637
+    },
+    {
+      "state": "Gujarat",
+      "district": "Gandhinagar",
+      "market": "Dehgam(Rekhiyal) APMC",
+      "commodity": "Paddy(Common)",
+      "variety": "Other",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2305,
+      "maxPrice": 2875,
+      "modalPrice": 2590
     },
     {
       "state": "Gujarat",
@@ -9630,6 +9652,17 @@
       "minPrice": 2900,
       "maxPrice": 2950,
       "modalPrice": 2925
+    },
+    {
+      "state": "Gujarat",
+      "district": "Gandhinagar",
+      "market": "Dehgam(Rekhiyal) APMC",
+      "commodity": "Wheat",
+      "variety": "Other",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2800,
+      "maxPrice": 2850,
+      "modalPrice": 2825
     },
     {
       "state": "Gujarat",
@@ -13601,6 +13634,17 @@
       "minPrice": 2400,
       "maxPrice": 2600,
       "modalPrice": 2585
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "market": "Samsabad APMC",
+      "commodity": "Wheat",
+      "variety": "Dara",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2585,
+      "maxPrice": 2800,
+      "modalPrice": 2600
     },
     {
       "state": "Uttarakhand",
@@ -22458,6 +22502,17 @@
       "modalPrice": 15500
     },
     {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Apple",
+      "variety": "Other",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 6500,
+      "maxPrice": 10500,
+      "modalPrice": 8500
+    },
+    {
       "state": "Punjab",
       "district": "Bhatinda",
       "market": "Bathinda APMC",
@@ -23878,6 +23933,17 @@
     },
     {
       "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Aluva Market",
+      "commodity": "Banana",
+      "variety": "Palayamthodan",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3000,
+      "maxPrice": 3200,
+      "modalPrice": 3100
+    },
+    {
+      "state": "Kerala",
       "district": "Thirssur",
       "market": "Amballur  VFPCK Market",
       "commodity": "Banana",
@@ -24073,6 +24139,17 @@
       "minPrice": 5000,
       "maxPrice": 6000,
       "modalPrice": 5500
+    },
+    {
+      "state": "Kerala",
+      "district": "Pathanamthitta",
+      "market": "Kalanjoor  VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Nendra Bale",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 6500,
+      "maxPrice": 7000,
+      "modalPrice": 6800
     },
     {
       "state": "Kerala",
@@ -24326,6 +24403,39 @@
       "minPrice": 2600,
       "maxPrice": 3000,
       "modalPrice": 2800
+    },
+    {
+      "state": "Kerala",
+      "district": "Kollam",
+      "market": "Kulathoopuzha VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Poovan",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3800,
+      "maxPrice": 3800,
+      "modalPrice": 3800
+    },
+    {
+      "state": "Kerala",
+      "district": "Kollam",
+      "market": "Kulathoopuzha VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Palayamthodan",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3500,
+      "maxPrice": 3500,
+      "modalPrice": 3500
+    },
+    {
+      "state": "Kerala",
+      "district": "Kollam",
+      "market": "Kulathoopuzha VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Nendra Bale",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 7500,
+      "maxPrice": 7500,
+      "modalPrice": 7500
     },
     {
       "state": "Kerala",
@@ -24802,6 +24912,17 @@
     },
     {
       "state": "Kerala",
+      "district": "Kollam",
+      "market": "Puthur VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Palayamthodan",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 1500,
+      "maxPrice": 2000,
+      "modalPrice": 1800
+    },
+    {
+      "state": "Kerala",
       "district": "Kottayam",
       "market": "Ramapuram VFPCK Market",
       "commodity": "Banana",
@@ -24865,6 +24986,50 @@
       "minPrice": 1800,
       "maxPrice": 1800,
       "modalPrice": 1800
+    },
+    {
+      "state": "Kerala",
+      "district": "Kollam",
+      "market": "Sasthamkotta VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Nendra Bale",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 6800,
+      "maxPrice": 6800,
+      "modalPrice": 6800
+    },
+    {
+      "state": "Kerala",
+      "district": "Kollam",
+      "market": "Sasthamkotta VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Palayamthodan",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3700,
+      "maxPrice": 3700,
+      "modalPrice": 3700
+    },
+    {
+      "state": "Kerala",
+      "district": "Kollam",
+      "market": "Sasthamkotta VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Poovan",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3800,
+      "maxPrice": 3800,
+      "modalPrice": 3800
+    },
+    {
+      "state": "Kerala",
+      "district": "Kollam",
+      "market": "Sooranad  VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Palayamthodan",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 1200,
+      "maxPrice": 1800,
+      "modalPrice": 1500
     },
     {
       "state": "Kerala",
@@ -25107,6 +25272,17 @@
       "minPrice": 1200,
       "maxPrice": 2500,
       "modalPrice": 1900
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Banana",
+      "variety": "Medium",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3500,
+      "maxPrice": 4000,
+      "modalPrice": 3750
     },
     {
       "state": "Odisha",
@@ -32975,6 +33151,17 @@
     },
     {
       "state": "Gujarat",
+      "district": "Gandhinagar",
+      "market": "Dehgam(Rekhiyal) APMC",
+      "commodity": "Bajra(Pearl Millet/Cumbu)",
+      "variety": "Other",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2625,
+      "maxPrice": 2675,
+      "modalPrice": 2650
+    },
+    {
+      "state": "Gujarat",
       "district": "Banaskanth",
       "market": "Diyodar APMC",
       "commodity": "Bajra(Pearl Millet/Cumbu)",
@@ -33885,6 +34072,17 @@
       "minPrice": 2550,
       "maxPrice": 2555,
       "modalPrice": 2552
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "market": "Samsabad APMC",
+      "commodity": "Bajra(Pearl Millet/Cumbu)",
+      "variety": "Deshi",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2600,
+      "maxPrice": 2900,
+      "modalPrice": 2900
     },
     {
       "state": "Chhattisgarh",
@@ -35290,9 +35488,9 @@
       "commodity": "Garlic",
       "variety": "Garlic",
       "arrivalDate": "2026-10-31",
-      "minPrice": 5340,
-      "maxPrice": 21700,
-      "modalPrice": 6700
+      "minPrice": 3600,
+      "maxPrice": 29000,
+      "modalPrice": 10000
     },
     {
       "state": "Madhya Pradesh",
@@ -37979,6 +38177,28 @@
       "modalPrice": 5200
     },
     {
+      "state": "Kerala",
+      "district": "Palakad",
+      "market": "Vadakkenchery Market",
+      "commodity": "Onion",
+      "variety": "Big",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 6000,
+      "maxPrice": 6500,
+      "modalPrice": 6500
+    },
+    {
+      "state": "Kerala",
+      "district": "Palakad",
+      "market": "Vadakkenchery Market",
+      "commodity": "Onion",
+      "variety": "Small",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 13000,
+      "maxPrice": 15000,
+      "modalPrice": 15000
+    },
+    {
       "state": "Madhya Pradesh",
       "district": "Shajapur",
       "market": "Agar APMC",
@@ -39066,6 +39286,17 @@
       "minPrice": 2250,
       "maxPrice": 6000,
       "modalPrice": 4019
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Onion",
+      "variety": "Onion",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2700,
+      "maxPrice": 4700,
+      "modalPrice": 4300
     },
     {
       "state": "Odisha",
@@ -41598,6 +41829,17 @@
       "modalPrice": 5800
     },
     {
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "market": "Samsabad APMC",
+      "commodity": "Onion",
+      "variety": "Onion",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3000,
+      "maxPrice": 3400,
+      "modalPrice": 3200
+    },
+    {
       "state": "Uttarakhand",
       "district": "Udhamsinghnagar",
       "market": "Khateema APMC",
@@ -43050,6 +43292,17 @@
       "modalPrice": 2400
     },
     {
+      "state": "Kerala",
+      "district": "Palakad",
+      "market": "Vadakkenchery Market",
+      "commodity": "Potato",
+      "variety": "Potato",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 6500,
+      "maxPrice": 7000,
+      "modalPrice": 7000
+    },
+    {
       "state": "Madhya Pradesh",
       "district": "Morena",
       "market": "Ambaha APMC",
@@ -43059,6 +43312,17 @@
       "minPrice": 300,
       "maxPrice": 375,
       "modalPrice": 350
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Guna",
+      "market": "Aron (F&V) APMC",
+      "commodity": "Potato",
+      "variety": "Local",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 940,
+      "maxPrice": 980,
+      "modalPrice": 960
     },
     {
       "state": "Madhya Pradesh",
@@ -43488,6 +43752,17 @@
       "minPrice": 400,
       "maxPrice": 2000,
       "modalPrice": 1174
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Potato",
+      "variety": "Other",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 800,
+      "maxPrice": 1500,
+      "modalPrice": 1150
     },
     {
       "state": "Nagaland",
@@ -46064,6 +46339,17 @@
       "modalPrice": 720
     },
     {
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "market": "Samsabad APMC",
+      "commodity": "Potato",
+      "variety": "Local",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 400,
+      "maxPrice": 700,
+      "modalPrice": 500
+    },
+    {
       "state": "Uttarakhand",
       "district": "Udhamsinghnagar",
       "market": "Bazpur APMC",
@@ -48176,6 +48462,17 @@
       "modalPrice": 5100
     },
     {
+      "state": "Kerala",
+      "district": "Thirssur",
+      "market": "Wadakkanchery Market",
+      "commodity": "Brinjal",
+      "variety": "Brinjal",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3500,
+      "maxPrice": 4000,
+      "modalPrice": 3700
+    },
+    {
       "state": "Madhya Pradesh",
       "district": "Damoh",
       "market": "Damoh(F&V) APMC",
@@ -48768,6 +49065,17 @@
       "minPrice": 1200,
       "maxPrice": 3000,
       "modalPrice": 1967
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Brinjal",
+      "variety": "Brinjal",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 800,
+      "maxPrice": 1800,
+      "modalPrice": 1300
     },
     {
       "state": "Nagaland",
@@ -53126,6 +53434,17 @@
       "modalPrice": 8000
     },
     {
+      "state": "Kerala",
+      "district": "Thirssur",
+      "market": "Wadakkanchery Market",
+      "commodity": "Cauliflower",
+      "variety": "Cauliflower",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 6000,
+      "maxPrice": 6500,
+      "modalPrice": 6200
+    },
+    {
       "state": "Madhya Pradesh",
       "district": "Damoh",
       "market": "Damoh(F&V) APMC",
@@ -53610,6 +53929,17 @@
       "modalPrice": 2150
     },
     {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Cauliflower",
+      "variety": "Cauliflower",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 800,
+      "maxPrice": 1800,
+      "modalPrice": 1300
+    },
+    {
       "state": "Odisha",
       "district": "Angul",
       "market": "Angaura APMC",
@@ -53784,6 +54114,17 @@
       "minPrice": 8000,
       "maxPrice": 8000,
       "modalPrice": 8000
+    },
+    {
+      "state": "Odisha",
+      "district": "Nowarangpur",
+      "market": "Nabarangpur(Umerkote) APMC",
+      "commodity": "Cauliflower",
+      "variety": "Cauliflower",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3200,
+      "maxPrice": 3200,
+      "modalPrice": 3200
     },
     {
       "state": "Odisha",
@@ -59682,6 +60023,17 @@
       "modalPrice": 3000
     },
     {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Papaya",
+      "variety": "Other",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 4000,
+      "maxPrice": 5000,
+      "modalPrice": 4500
+    },
+    {
       "state": "Punjab",
       "district": "Ropar (Rupnagar)",
       "market": "Chamkaur Sahib APMC",
@@ -64742,6 +65094,17 @@
       "modalPrice": 4000
     },
     {
+      "state": "Kerala",
+      "district": "Thirssur",
+      "market": "Wadakkanchery Market",
+      "commodity": "Ashgourd",
+      "variety": "Ashgourd",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 4500,
+      "maxPrice": 5000,
+      "modalPrice": 4700
+    },
+    {
       "state": "Punjab",
       "district": "Gurdaspur",
       "market": "Dera Baba Nanak APMC",
@@ -67382,6 +67745,17 @@
       "modalPrice": 7000
     },
     {
+      "state": "Kerala",
+      "district": "Thirssur",
+      "market": "Wadakkanchery Market",
+      "commodity": "Bhindi(Ladies Finger)",
+      "variety": "Bhindi",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 6000,
+      "maxPrice": 6500,
+      "modalPrice": 6200
+    },
+    {
       "state": "Madhya Pradesh",
       "district": "Damoh",
       "market": "Damoh(F&V) APMC",
@@ -67875,6 +68249,17 @@
       "minPrice": 1500,
       "maxPrice": 4000,
       "modalPrice": 2500
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Bhindi(Ladies Finger)",
+      "variety": "Bhindi",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2600,
+      "maxPrice": 4000,
+      "modalPrice": 3300
     },
     {
       "state": "Nagaland",
@@ -71529,6 +71914,17 @@
       "modalPrice": 8000
     },
     {
+      "state": "Kerala",
+      "district": "Thirssur",
+      "market": "Wadakkanchery Market",
+      "commodity": "Bitter gourd",
+      "variety": "Bitter Gourd",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 6000,
+      "maxPrice": 6500,
+      "modalPrice": 6200
+    },
+    {
       "state": "Madhya Pradesh",
       "district": "Katni",
       "market": "Katni(F&V) APMC",
@@ -71815,6 +72211,17 @@
       "modalPrice": 2000
     },
     {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Bitter gourd",
+      "variety": "Bitter Gourd",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2500,
+      "maxPrice": 3500,
+      "modalPrice": 3000
+    },
+    {
       "state": "Nagaland",
       "district": "Dimapur",
       "market": "Dimapur APMC",
@@ -72066,6 +72473,17 @@
       "minPrice": 3000,
       "maxPrice": 3500,
       "modalPrice": 3200
+    },
+    {
+      "state": "Odisha",
+      "district": "Nowarangpur",
+      "market": "Nabarangpur(Umerkote) APMC",
+      "commodity": "Bitter gourd",
+      "variety": "Bitter Gourd",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3000,
+      "maxPrice": 3000,
+      "modalPrice": 3000
     },
     {
       "state": "Punjab",
@@ -75412,6 +75830,17 @@
       "modalPrice": 3500
     },
     {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Bottle gourd",
+      "variety": "Bottle Gourd",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 1400,
+      "maxPrice": 2800,
+      "modalPrice": 2100
+    },
+    {
       "state": "Odisha",
       "district": "Balasore",
       "market": "Balasore APMC",
@@ -75465,6 +75894,17 @@
       "minPrice": 1800,
       "maxPrice": 2000,
       "modalPrice": 2000
+    },
+    {
+      "state": "Odisha",
+      "district": "Nowarangpur",
+      "market": "Nabarangpur(Umerkote) APMC",
+      "commodity": "Bottle gourd",
+      "variety": "Bottle Gourd",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 1900,
+      "maxPrice": 1900,
+      "modalPrice": 1900
     },
     {
       "state": "Odisha",
@@ -83993,6 +84433,17 @@
     },
     {
       "state": "Uttar Pradesh",
+      "district": "Agra",
+      "market": "Samsabad APMC",
+      "commodity": "Green Chilli",
+      "variety": "Green Chilly",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2400,
+      "maxPrice": 2800,
+      "modalPrice": 2600
+    },
+    {
+      "state": "Uttar Pradesh",
       "district": "Sirsa",
       "market": "Sirsa APMC",
       "commodity": "Green Chilli",
@@ -84599,6 +85050,17 @@
     {
       "state": "Kerala",
       "district": "Palakad",
+      "market": "Vadakkenchery Market",
+      "commodity": "Pumpkin",
+      "variety": "Pumpkin",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2500,
+      "maxPrice": 3000,
+      "modalPrice": 3000
+    },
+    {
+      "state": "Kerala",
+      "district": "Palakad",
       "market": "Vaniyamkulam  VFPCK Market",
       "commodity": "Pumpkin",
       "variety": "Other",
@@ -84771,6 +85233,17 @@
       "minPrice": 1500,
       "maxPrice": 3000,
       "modalPrice": 2300
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Pumpkin",
+      "variety": "Other",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 1000,
+      "maxPrice": 1800,
+      "modalPrice": 1400
     },
     {
       "state": "Nagaland",
@@ -85024,6 +85497,17 @@
       "minPrice": 1000,
       "maxPrice": 1200,
       "modalPrice": 1100
+    },
+    {
+      "state": "Odisha",
+      "district": "Nowarangpur",
+      "market": "Nabarangpur(Umerkote) APMC",
+      "commodity": "Pumpkin",
+      "variety": "Pumpkin",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 1800,
+      "maxPrice": 1800,
+      "modalPrice": 1800
     },
     {
       "state": "Odisha",
@@ -88403,6 +88887,39 @@
       "modalPrice": 3000
     },
     {
+      "state": "Kerala",
+      "district": "Palakad",
+      "market": "Vadakkenchery Market",
+      "commodity": "Tomato",
+      "variety": "Tomato",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 4500,
+      "maxPrice": 5500,
+      "modalPrice": 5500
+    },
+    {
+      "state": "Kerala",
+      "district": "Thirssur",
+      "market": "Wadakkanchery Market",
+      "commodity": "Tomato",
+      "variety": "Tomato",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3000,
+      "maxPrice": 3500,
+      "modalPrice": 3200
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Guna",
+      "market": "Aron (F&V) APMC",
+      "commodity": "Tomato",
+      "variety": "Deshi",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 1200,
+      "maxPrice": 1600,
+      "modalPrice": 1400
+    },
+    {
       "state": "Madhya Pradesh",
       "district": "Betul",
       "market": "Betul(F&V) APMC",
@@ -88984,6 +89501,17 @@
       "minPrice": 1000,
       "maxPrice": 3067,
       "modalPrice": 2186
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Tomato",
+      "variety": "Other",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 1400,
+      "maxPrice": 2800,
+      "modalPrice": 2600
     },
     {
       "state": "Nagaland",
@@ -92078,6 +92606,17 @@
     },
     {
       "state": "Uttar Pradesh",
+      "district": "Agra",
+      "market": "Samsabad APMC",
+      "commodity": "Tomato",
+      "variety": "Hybrid",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 1200,
+      "maxPrice": 1600,
+      "modalPrice": 1400
+    },
+    {
+      "state": "Uttar Pradesh",
       "district": "Sirsa",
       "market": "Sirsa APMC",
       "commodity": "Tomato",
@@ -92416,6 +92955,17 @@
       "minPrice": 7900,
       "maxPrice": 8000,
       "modalPrice": 7950
+    },
+    {
+      "state": "Gujarat",
+      "district": "Gandhinagar",
+      "market": "Dehgam(Rekhiyal) APMC",
+      "commodity": "Castor Seed",
+      "variety": "Other",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 7800,
+      "maxPrice": 7900,
+      "modalPrice": 7850
     },
     {
       "state": "Gujarat",
@@ -93142,6 +93692,17 @@
       "minPrice": 6000,
       "maxPrice": 6200,
       "modalPrice": 6200
+    },
+    {
+      "state": "Kerala",
+      "district": "Thirssur",
+      "market": "Wadakkanchery Market",
+      "commodity": "Banana - Green",
+      "variety": "Banana - Green",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 6500,
+      "maxPrice": 7000,
+      "modalPrice": 6700
     },
     {
       "state": "Maharashtra",
@@ -97555,6 +98116,17 @@
       "modalPrice": 7200
     },
     {
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "market": "Samsabad APMC",
+      "commodity": "Ginger(Green)",
+      "variety": "Green Ginger",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 5000,
+      "maxPrice": 5200,
+      "modalPrice": 5100
+    },
+    {
       "state": "Uttarakhand",
       "district": "Dehradoon",
       "market": "Chakrata APMC",
@@ -97740,6 +98312,17 @@
       "minPrice": 6000,
       "maxPrice": 6000,
       "modalPrice": 6000
+    },
+    {
+      "state": "Kerala",
+      "district": "Palakad",
+      "market": "Vadakkenchery Market",
+      "commodity": "Tapioca",
+      "variety": "Tapioca",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3000,
+      "maxPrice": 3500,
+      "modalPrice": 3500
     },
     {
       "state": "Kerala",
@@ -101911,6 +102494,17 @@
       "modalPrice": 4000
     },
     {
+      "state": "Kerala",
+      "district": "Thirssur",
+      "market": "Wadakkanchery Market",
+      "commodity": "Cabbage",
+      "variety": "Cabbage",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3000,
+      "maxPrice": 3500,
+      "modalPrice": 3200
+    },
+    {
       "state": "Madhya Pradesh",
       "district": "Dewas",
       "market": "Dewas(F&V) APMC",
@@ -102338,6 +102932,17 @@
       "minPrice": 800,
       "maxPrice": 1600,
       "modalPrice": 1150
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Cabbage",
+      "variety": "Cabbage",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 800,
+      "maxPrice": 2000,
+      "modalPrice": 1400
     },
     {
       "state": "Odisha",
@@ -105354,6 +105959,17 @@
       "modalPrice": 6000
     },
     {
+      "state": "Kerala",
+      "district": "Thirssur",
+      "market": "Wadakkanchery Market",
+      "commodity": "Carrot",
+      "variety": "Carrot",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 5500,
+      "maxPrice": 6000,
+      "modalPrice": 5700
+    },
+    {
       "state": "Madhya Pradesh",
       "district": "Dhar",
       "market": "Dhar(F&V) APMC",
@@ -105550,6 +106166,17 @@
       "minPrice": 2500,
       "maxPrice": 3500,
       "modalPrice": 3000
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Carrot",
+      "variety": "Other",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3000,
+      "maxPrice": 5000,
+      "modalPrice": 4000
     },
     {
       "state": "Odisha",
@@ -109215,6 +109842,17 @@
       "modalPrice": 5163
     },
     {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Guava",
+      "variety": "Guava",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2500,
+      "maxPrice": 6000,
+      "modalPrice": 4200
+    },
+    {
       "state": "Punjab",
       "district": "Hoshiarpur",
       "market": "Dasuya APMC",
@@ -112702,6 +113340,17 @@
       "modalPrice": 6000
     },
     {
+      "state": "Kerala",
+      "district": "Thirssur",
+      "market": "Wadakkanchery Market",
+      "commodity": "Beetroot",
+      "variety": "Beetroot",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 4000,
+      "maxPrice": 4500,
+      "modalPrice": 4200
+    },
+    {
       "state": "Maharashtra",
       "district": "Solapur",
       "market": "APMC Akluj",
@@ -112821,6 +113470,17 @@
       "minPrice": 1000,
       "maxPrice": 2000,
       "modalPrice": 1600
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Beetroot",
+      "variety": "Beetroot",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2800,
+      "maxPrice": 3400,
+      "modalPrice": 3100
     },
     {
       "state": "Odisha",
@@ -114488,22 +115148,22 @@
       "district": "Kamrup",
       "market": "Pamohi(Garchuk) APMC",
       "commodity": "Capsicum",
-      "variety": "Other",
+      "variety": "Capsicum",
       "arrivalDate": "2026-10-31",
-      "minPrice": 7000,
-      "maxPrice": 8000,
-      "modalPrice": 7500
+      "minPrice": 5000,
+      "maxPrice": 6000,
+      "modalPrice": 5500
     },
     {
       "state": "Assam",
       "district": "Kamrup",
       "market": "Pamohi(Garchuk) APMC",
       "commodity": "Capsicum",
-      "variety": "Capsicum",
+      "variety": "Other",
       "arrivalDate": "2026-10-31",
-      "minPrice": 5000,
-      "maxPrice": 6000,
-      "modalPrice": 5500
+      "minPrice": 7000,
+      "maxPrice": 8000,
+      "modalPrice": 7500
     },
     {
       "state": "Chandigarh",
@@ -114990,6 +115650,17 @@
       "modalPrice": 4150
     },
     {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Capsicum",
+      "variety": "Capsicum",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2500,
+      "maxPrice": 3500,
+      "modalPrice": 3000
+    },
+    {
       "state": "Odisha",
       "district": "Ganjam",
       "market": "Bhanjanagar APMC",
@@ -115087,6 +115758,17 @@
       "minPrice": 5000,
       "maxPrice": 7000,
       "modalPrice": 6000
+    },
+    {
+      "state": "Punjab",
+      "district": "Muktsar",
+      "market": "Muktsar APMC",
+      "commodity": "Capsicum",
+      "variety": "Capsicum",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 3800,
+      "maxPrice": 4600,
+      "modalPrice": 4200
     },
     {
       "state": "Punjab",
@@ -117166,6 +117848,17 @@
       "minPrice": 2000,
       "maxPrice": 4000,
       "modalPrice": 2350
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Cucumbar",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 2200,
+      "maxPrice": 3300,
+      "modalPrice": 2850
     },
     {
       "state": "Odisha",
@@ -121533,6 +122226,17 @@
       "minPrice": 720,
       "maxPrice": 1400,
       "modalPrice": 1060
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Raddish",
+      "variety": "Other",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 800,
+      "maxPrice": 1800,
+      "modalPrice": 1300
     },
     {
       "state": "Odisha",
@@ -128179,6 +128883,17 @@
       "modalPrice": 1900
     },
     {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Indian Colza(Sarson)",
+      "variety": "Indian Colza(Sarson)",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 1200,
+      "maxPrice": 2000,
+      "modalPrice": 1600
+    },
+    {
       "state": "Punjab",
       "district": "Kapurthala",
       "market": "Bhulath APMC",
@@ -128595,6 +129310,17 @@
       "minPrice": 3000,
       "maxPrice": 7000,
       "modalPrice": 5500
+    },
+    {
+      "state": "Delhi",
+      "district": "Delhi",
+      "market": "APMC Keshopur",
+      "commodity": "Lemon",
+      "variety": "Lemon",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 9000,
+      "maxPrice": 12000,
+      "modalPrice": 10500
     },
     {
       "state": "Punjab",
@@ -130256,6 +130982,17 @@
       "minPrice": 2500,
       "maxPrice": 2700,
       "modalPrice": 2600
+    },
+    {
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "market": "Samsabad APMC",
+      "commodity": "Lemon",
+      "variety": "Lemon",
+      "arrivalDate": "2026-10-31",
+      "minPrice": 4000,
+      "maxPrice": 4400,
+      "modalPrice": 4200
     },
     {
       "state": "Uttarakhand",
@@ -1177579,17 +1178316,6 @@
       "modalPrice": 4750
     },
     {
-      "state": "Delhi",
-      "district": "Delhi",
-      "market": "APMC Keshopur",
-      "commodity": "Papaya",
-      "variety": "Papaya",
-      "arrivalDate": "2026-10-23",
-      "minPrice": 4000,
-      "maxPrice": 4800,
-      "modalPrice": 4400
-    },
-    {
       "state": "Punjab",
       "district": "Patiala",
       "market": "Patran APMC",
@@ -1177832,17 +1178558,6 @@
       "modalPrice": 4500
     },
     {
-      "state": "Kerala",
-      "district": "Thirssur",
-      "market": "Wadakkanchery Market",
-      "commodity": "Bhindi(Ladies Finger)",
-      "variety": "Bhindi",
-      "arrivalDate": "2026-10-23",
-      "minPrice": 3500,
-      "maxPrice": 4000,
-      "modalPrice": 3700
-    },
-    {
       "state": "Telangana",
       "district": "Karimnagar",
       "market": "Karimnagar APMC",
@@ -1177940,17 +1178655,6 @@
       "minPrice": 9000,
       "maxPrice": 9400,
       "modalPrice": 9200
-    },
-    {
-      "state": "Kerala",
-      "district": "Thirssur",
-      "market": "Wadakkanchery Market",
-      "commodity": "Bitter gourd",
-      "variety": "Bitter Gourd",
-      "arrivalDate": "2026-10-23",
-      "minPrice": 6500,
-      "maxPrice": 7000,
-      "modalPrice": 6700
     },
     {
       "state": "Maharashtra",
@@ -1179150,17 +1179854,6 @@
       "minPrice": 5000,
       "maxPrice": 5500,
       "modalPrice": 5200
-    },
-    {
-      "state": "Kerala",
-      "district": "Thirssur",
-      "market": "Wadakkanchery Market",
-      "commodity": "Beetroot",
-      "variety": "Beetroot",
-      "arrivalDate": "2026-10-23",
-      "minPrice": 4500,
-      "maxPrice": 5000,
-      "modalPrice": 4700
     },
     {
       "state": "Telangana",
@@ -1195518,17 +1196211,6 @@
       "minPrice": 4000,
       "maxPrice": 4200,
       "modalPrice": 4100
-    },
-    {
-      "state": "Kerala",
-      "district": "Thirssur",
-      "market": "Wadakkanchery Market",
-      "commodity": "Tomato",
-      "variety": "Tomato",
-      "arrivalDate": "2026-10-21",
-      "minPrice": 3200,
-      "maxPrice": 3700,
-      "modalPrice": 3400
     },
     {
       "state": "Punjab",
