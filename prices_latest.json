@@ -1,8 +1,8 @@
 {
   "version": 1,
   "date": "2026-11-10",
-  "updatedAtMs": 1794276902532,
-  "recordsCount": 87062,
+  "updatedAtMs": 1794279195414,
+  "recordsCount": 87072,
   "statesCount": 32,
   "commoditiesCount": 266,
   "records": [
@@ -16,6 +16,39 @@
       "minPrice": 4800,
       "maxPrice": 4800,
       "modalPrice": 4800
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Srikakulam",
+      "market": "Hiramandalam APMC",
+      "commodity": "Maize",
+      "variety": "Medium",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 2350,
+      "maxPrice": 2350,
+      "modalPrice": 2350
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Sri Sathya Sai",
+      "market": "Penukonda APMC",
+      "commodity": "Maize",
+      "variety": "Hybrid/Local",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 2600,
+      "maxPrice": 2700,
+      "modalPrice": 2650
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Srikakulam",
+      "market": "Hiramandalam APMC",
+      "commodity": "Paddy(Common)",
+      "variety": "Paddy",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 2400,
+      "maxPrice": 2400,
+      "modalPrice": 2400
     },
     {
       "state": "Andhra Pradesh",
@@ -118,36 +151,14 @@
     },
     {
       "state": "Andhra Pradesh",
-      "district": "Palnadu",
-      "market": "Gurazala APMC",
-      "commodity": "Chili Red",
-      "variety": "Red",
+      "district": "Annamayya",
+      "market": "Rayachoti APMC",
+      "commodity": "Groundnut",
+      "variety": "Local",
       "arrivalDate": "2026-11-10",
-      "minPrice": 18000,
-      "maxPrice": 28500,
-      "modalPrice": 24700
-    },
-    {
-      "state": "Haryana",
-      "district": "Gurgaon",
-      "market": "Gurgaon APMC",
-      "commodity": "Onion",
-      "variety": "Other",
-      "arrivalDate": "2026-11-10",
-      "minPrice": 4000,
-      "maxPrice": 4400,
-      "modalPrice": 4200
-    },
-    {
-      "state": "Haryana",
-      "district": "Gurgaon",
-      "market": "Gurgaon APMC",
-      "commodity": "Potato",
-      "variety": "Other",
-      "arrivalDate": "2026-11-10",
-      "minPrice": 800,
-      "maxPrice": 1200,
-      "modalPrice": 1000
+      "minPrice": 8000,
+      "maxPrice": 8400,
+      "modalPrice": 8200
     },
     {
       "state": "Haryana",
@@ -282,6 +293,17 @@
       "modalPrice": 4500
     },
     {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Piravam Market",
+      "commodity": "Green Chilli",
+      "variety": "Other",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 8000,
+      "maxPrice": 10000,
+      "modalPrice": 9000
+    },
+    {
       "state": "Punjab",
       "district": "Jalandhar",
       "market": "Lohian Khas APMC",
@@ -348,114 +370,15 @@
       "modalPrice": 3400
     },
     {
-      "state": "Bihar",
-      "district": "Khagaria",
-      "market": "Mansi Mandi APMC",
-      "commodity": "Cabbage",
-      "variety": "Cabbage",
-      "arrivalDate": "2026-11-10",
-      "minPrice": 2100,
-      "maxPrice": 2100,
-      "modalPrice": 2100
-    },
-    {
       "state": "Kerala",
       "district": "Ernakulam",
       "market": "Piravam Market",
-      "commodity": "Cabbage",
-      "variety": "Cabbage",
-      "arrivalDate": "2026-11-10",
-      "minPrice": 4000,
-      "maxPrice": 5000,
-      "modalPrice": 4500
-    },
-    {
-      "state": "Kerala",
-      "district": "Ernakulam",
-      "market": "Piravam Market",
-      "commodity": "Carrot",
-      "variety": "Carrot",
-      "arrivalDate": "2026-11-10",
-      "minPrice": 6000,
-      "maxPrice": 7500,
-      "modalPrice": 7000
-    },
-    {
-      "state": "Punjab",
-      "district": "Jalandhar",
-      "market": "Lohian Khas APMC",
-      "commodity": "Carrot",
+      "commodity": "Lemon",
       "variety": "Other",
       "arrivalDate": "2026-11-10",
-      "minPrice": 2400,
-      "maxPrice": 2800,
-      "modalPrice": 2600
-    },
-    {
-      "state": "Kerala",
-      "district": "Ernakulam",
-      "market": "Piravam Market",
-      "commodity": "Beetroot",
-      "variety": "Beetroot",
-      "arrivalDate": "2026-11-10",
-      "minPrice": 5800,
-      "maxPrice": 7000,
-      "modalPrice": 6500
-    },
-    {
-      "state": "Kerala",
-      "district": "Ernakulam",
-      "market": "Piravam Market",
-      "commodity": "Capsicum",
-      "variety": "Other",
-      "arrivalDate": "2026-11-10",
-      "minPrice": 8000,
-      "maxPrice": 10000,
-      "modalPrice": 9000
-    },
-    {
-      "state": "Kerala",
-      "district": "Ernakulam",
-      "market": "Piravam Market",
-      "commodity": "Cucumbar(Kheera)",
-      "variety": "Cucumbar",
-      "arrivalDate": "2026-11-10",
-      "minPrice": 4000,
-      "maxPrice": 6000,
-      "modalPrice": 5000
-    },
-    {
-      "state": "Kerala",
-      "district": "Ernakulam",
-      "market": "Piravam Market",
-      "commodity": "Drumstick",
-      "variety": "Drumstick",
-      "arrivalDate": "2026-11-10",
-      "minPrice": 10000,
-      "maxPrice": 12000,
-      "modalPrice": 11000
-    },
-    {
-      "state": "Punjab",
-      "district": "Jalandhar",
-      "market": "Lohian Khas APMC",
-      "commodity": "Raddish",
-      "variety": "Other",
-      "arrivalDate": "2026-11-10",
-      "minPrice": 600,
-      "maxPrice": 1000,
-      "modalPrice": 800
-    },
-    {
-      "state": "Punjab",
-      "district": "Ludhiana",
-      "market": "Sahnewal APMC",
-      "commodity": "Raddish",
-      "variety": "Raddish",
-      "arrivalDate": "2026-11-10",
-      "minPrice": 1200,
-      "maxPrice": 1200,
-      "modalPrice": 1200
+      "minPrice": 19000,
+      "maxPrice": 22000,
+      "modalPrice": 21000
     },
     {
       "state": "Andhra Pradesh",
@@ -6671,6 +6594,17 @@
       "minPrice": 9000,
       "maxPrice": 9200,
       "modalPrice": 9100
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Chattrapati Sambhajinagar",
+      "market": "Maharashtra Agriculture Farm Produce Pvt Market Yard, Tal Sillod, Dist Chattrapati Sambhajinagar",
+      "commodity": "Cotton",
+      "variety": "Other",
+      "arrivalDate": "2026-11-09",
+      "minPrice": 9000,
+      "maxPrice": 9251,
+      "modalPrice": 9125
     },
     {
       "state": "Telangana",
@@ -37749,6 +37683,17 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Dhar",
+      "market": "Kukshi(F&V) APMC",
+      "commodity": "Bhindi(Ladies Finger)",
+      "variety": "Bhindi",
+      "arrivalDate": "2026-11-09",
+      "minPrice": 800,
+      "maxPrice": 2300,
+      "modalPrice": 1500
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Narmadapuram",
       "market": "Narmadapuram (F&V) APMC",
       "commodity": "Bhindi(Ladies Finger)",
@@ -49156,6 +49101,17 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Dhar",
+      "market": "Kukshi(F&V) APMC",
+      "commodity": "Green Chilli",
+      "variety": "Green Chilly",
+      "arrivalDate": "2026-11-09",
+      "minPrice": 2200,
+      "maxPrice": 4500,
+      "modalPrice": 3300
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Ujjain",
       "market": "Ujjain(F&V) APMC",
       "commodity": "Green Chilli",
@@ -55954,6 +55910,17 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Dhar",
+      "market": "Kukshi(F&V) APMC",
+      "commodity": "Tomato",
+      "variety": "Tomato",
+      "arrivalDate": "2026-11-09",
+      "minPrice": 600,
+      "maxPrice": 1600,
+      "modalPrice": 1100
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Ujjain",
       "market": "Ujjain(F&V) APMC",
       "commodity": "Tomato",
@@ -59317,6 +59284,149 @@
       "minPrice": 1900,
       "maxPrice": 2100,
       "modalPrice": 2000
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Palnadu",
+      "market": "Gurazala APMC",
+      "commodity": "Chili Red",
+      "variety": "Red",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 18000,
+      "maxPrice": 28500,
+      "modalPrice": 24700
+    },
+    {
+      "state": "Haryana",
+      "district": "Gurgaon",
+      "market": "Gurgaon APMC",
+      "commodity": "Onion",
+      "variety": "Other",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 4000,
+      "maxPrice": 4400,
+      "modalPrice": 4200
+    },
+    {
+      "state": "Haryana",
+      "district": "Gurgaon",
+      "market": "Gurgaon APMC",
+      "commodity": "Potato",
+      "variety": "Other",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 800,
+      "maxPrice": 1200,
+      "modalPrice": 1000
+    },
+    {
+      "state": "Bihar",
+      "district": "Khagaria",
+      "market": "Mansi Mandi APMC",
+      "commodity": "Cabbage",
+      "variety": "Cabbage",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 2100,
+      "maxPrice": 2100,
+      "modalPrice": 2100
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Piravam Market",
+      "commodity": "Cabbage",
+      "variety": "Cabbage",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 4000,
+      "maxPrice": 5000,
+      "modalPrice": 4500
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Piravam Market",
+      "commodity": "Carrot",
+      "variety": "Carrot",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 6000,
+      "maxPrice": 7500,
+      "modalPrice": 7000
+    },
+    {
+      "state": "Punjab",
+      "district": "Jalandhar",
+      "market": "Lohian Khas APMC",
+      "commodity": "Carrot",
+      "variety": "Other",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 2400,
+      "maxPrice": 2800,
+      "modalPrice": 2600
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Piravam Market",
+      "commodity": "Beetroot",
+      "variety": "Beetroot",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 5800,
+      "maxPrice": 7000,
+      "modalPrice": 6500
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Piravam Market",
+      "commodity": "Capsicum",
+      "variety": "Other",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 8000,
+      "maxPrice": 10000,
+      "modalPrice": 9000
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Piravam Market",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Cucumbar",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 4000,
+      "maxPrice": 6000,
+      "modalPrice": 5000
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Piravam Market",
+      "commodity": "Drumstick",
+      "variety": "Drumstick",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 10000,
+      "maxPrice": 12000,
+      "modalPrice": 11000
+    },
+    {
+      "state": "Punjab",
+      "district": "Jalandhar",
+      "market": "Lohian Khas APMC",
+      "commodity": "Raddish",
+      "variety": "Other",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 600,
+      "maxPrice": 1000,
+      "modalPrice": 800
+    },
+    {
+      "state": "Punjab",
+      "district": "Ludhiana",
+      "market": "Sahnewal APMC",
+      "commodity": "Raddish",
+      "variety": "Raddish",
+      "arrivalDate": "2026-11-10",
+      "minPrice": 1200,
+      "maxPrice": 1200,
+      "modalPrice": 1200
     },
     {
       "state": "Madhya Pradesh",
