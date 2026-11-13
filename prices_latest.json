@@ -1,8 +1,8 @@
 {
   "version": 1,
   "date": "2026-11-13",
-  "updatedAtMs": 1794529766881,
-  "recordsCount": 80823,
+  "updatedAtMs": 1794531551736,
+  "recordsCount": 80828,
   "statesCount": 32,
   "commoditiesCount": 276,
   "records": [
@@ -18,6 +18,17 @@
       "modalPrice": 4800
     },
     {
+      "state": "Andhra Pradesh",
+      "district": "Kakinada",
+      "market": "Pithapuram APMC",
+      "commodity": "Paddy(Common)",
+      "variety": "Paddy",
+      "arrivalDate": "2026-11-13",
+      "minPrice": 2440,
+      "maxPrice": 2460,
+      "modalPrice": 2450
+    },
+    {
       "state": "West Bengal",
       "district": "Birbhum",
       "market": "Rampurhat APMC",
@@ -27,6 +38,28 @@
       "minPrice": 2590,
       "maxPrice": 2610,
       "modalPrice": 2600
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Palnadu",
+      "market": "Ipur APMC",
+      "commodity": "Cotton",
+      "variety": "Cotton (Unginned)",
+      "arrivalDate": "2026-11-13",
+      "minPrice": 7200,
+      "maxPrice": 8100,
+      "modalPrice": 7500
+    },
+    {
+      "state": "Telangana",
+      "district": "Bhadradri Kothagudem",
+      "market": "Bhadrachalam APMC",
+      "commodity": "Cotton",
+      "variety": "Cotton (Unginned)",
+      "arrivalDate": "2026-11-13",
+      "minPrice": 9000,
+      "maxPrice": 9000,
+      "modalPrice": 9000
     },
     {
       "state": "Uttarakhand",
@@ -49,6 +82,17 @@
       "minPrice": 700,
       "maxPrice": 1200,
       "modalPrice": 950
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Palnadu",
+      "market": "Gurazala APMC",
+      "commodity": "Chili Red",
+      "variety": "Red",
+      "arrivalDate": "2026-11-13",
+      "minPrice": 19000,
+      "maxPrice": 28000,
+      "modalPrice": 23800
     },
     {
       "state": "Punjab",
@@ -93,50 +137,6 @@
       "minPrice": 750,
       "maxPrice": 1200,
       "modalPrice": 950
-    },
-    {
-      "state": "Punjab",
-      "district": "Amritsar",
-      "market": "Rayya APMC",
-      "commodity": "Brinjal",
-      "variety": "Brinjal",
-      "arrivalDate": "2026-11-13",
-      "minPrice": 1680,
-      "maxPrice": 1680,
-      "modalPrice": 1680
-    },
-    {
-      "state": "Uttarakhand",
-      "district": "Haridwar",
-      "market": "Roorkee APMC",
-      "commodity": "Brinjal",
-      "variety": "Other",
-      "arrivalDate": "2026-11-13",
-      "minPrice": 800,
-      "maxPrice": 1200,
-      "modalPrice": 1000
-    },
-    {
-      "state": "Punjab",
-      "district": "Amritsar",
-      "market": "Rayya APMC",
-      "commodity": "Cauliflower",
-      "variety": "Local",
-      "arrivalDate": "2026-11-13",
-      "minPrice": 3125,
-      "maxPrice": 3125,
-      "modalPrice": 3125
-    },
-    {
-      "state": "Uttarakhand",
-      "district": "Haridwar",
-      "market": "Roorkee APMC",
-      "commodity": "Cauliflower",
-      "variety": "Other",
-      "arrivalDate": "2026-11-13",
-      "minPrice": 1600,
-      "maxPrice": 2400,
-      "modalPrice": 2000
     },
     {
       "state": "Punjab",
@@ -20421,6 +20421,17 @@
       "minPrice": 8700,
       "maxPrice": 8850,
       "modalPrice": 8750
+    },
+    {
+      "state": "Telangana",
+      "district": "Bhadradri Kothagudem",
+      "market": "Bhadrachalam APMC",
+      "commodity": "Cotton",
+      "variety": "Cotton (Unginned)",
+      "arrivalDate": "2026-11-12",
+      "minPrice": 9000,
+      "maxPrice": 9000,
+      "modalPrice": 9000
     },
     {
       "state": "Telangana",
@@ -143907,6 +143918,50 @@
       "minPrice": 12000,
       "maxPrice": 15000,
       "modalPrice": 13000
+    },
+    {
+      "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Brinjal",
+      "variety": "Brinjal",
+      "arrivalDate": "2026-11-13",
+      "minPrice": 1680,
+      "maxPrice": 1680,
+      "modalPrice": 1680
+    },
+    {
+      "state": "Uttarakhand",
+      "district": "Haridwar",
+      "market": "Roorkee APMC",
+      "commodity": "Brinjal",
+      "variety": "Other",
+      "arrivalDate": "2026-11-13",
+      "minPrice": 800,
+      "maxPrice": 1200,
+      "modalPrice": 1000
+    },
+    {
+      "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Cauliflower",
+      "variety": "Local",
+      "arrivalDate": "2026-11-13",
+      "minPrice": 3125,
+      "maxPrice": 3125,
+      "modalPrice": 3125
+    },
+    {
+      "state": "Uttarakhand",
+      "district": "Haridwar",
+      "market": "Roorkee APMC",
+      "commodity": "Cauliflower",
+      "variety": "Other",
+      "arrivalDate": "2026-11-13",
+      "minPrice": 1600,
+      "maxPrice": 2400,
+      "modalPrice": 2000
     },
     {
       "state": "Madhya Pradesh",
