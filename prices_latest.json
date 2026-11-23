@@ -1,8 +1,8 @@
 {
   "version": 1,
   "date": "2026-11-23",
-  "updatedAtMs": 1795393817009,
-  "recordsCount": 95916,
+  "updatedAtMs": 1795395571182,
+  "recordsCount": 95938,
   "statesCount": 30,
   "commoditiesCount": 281,
   "records": [
@@ -52,6 +52,72 @@
     },
     {
       "state": "Punjab",
+      "district": "Fatehgarh",
+      "market": "Sirhind APMC",
+      "commodity": "Apple",
+      "variety": "Other",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 7000,
+      "maxPrice": 9000,
+      "modalPrice": 7500
+    },
+    {
+      "state": "Punjab",
+      "district": "Fatehgarh",
+      "market": "Sirhind APMC",
+      "commodity": "Banana",
+      "variety": "Other",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 3200,
+      "maxPrice": 4000,
+      "modalPrice": 3400
+    },
+    {
+      "state": "Punjab",
+      "district": "Fatehgarh",
+      "market": "Sirhind APMC",
+      "commodity": "Orange",
+      "variety": "Other",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 4500,
+      "maxPrice": 6000,
+      "modalPrice": 5000
+    },
+    {
+      "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Onion",
+      "variety": "Red",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 4042,
+      "maxPrice": 4042,
+      "modalPrice": 4042
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Rajsamand",
+      "market": "Rajsamand APMC",
+      "commodity": "Onion",
+      "variety": "Onion",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 2000,
+      "maxPrice": 3000,
+      "modalPrice": 2500
+    },
+    {
+      "state": "Haryana",
+      "district": "Yamuna Nagar",
+      "market": "Yamuna Nagar APMC",
+      "commodity": "Potato",
+      "variety": "Other",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 400,
+      "maxPrice": 1200,
+      "modalPrice": 600
+    },
+    {
+      "state": "Punjab",
       "district": "Jalandhar",
       "market": "Nakodar APMC",
       "commodity": "Potato",
@@ -60,6 +126,28 @@
       "minPrice": 430,
       "maxPrice": 430,
       "modalPrice": 430
+    },
+    {
+      "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Potato",
+      "variety": "Potato",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 700,
+      "maxPrice": 700,
+      "modalPrice": 700
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Rajsamand",
+      "market": "Rajsamand APMC",
+      "commodity": "Potato",
+      "variety": "Potato",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 1000,
+      "maxPrice": 1400,
+      "modalPrice": 1200
     },
     {
       "state": "Andhra Pradesh",
@@ -74,6 +162,17 @@
     },
     {
       "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Brinjal",
+      "variety": "Brinjal",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 1715,
+      "maxPrice": 1715,
+      "modalPrice": 1715
+    },
+    {
+      "state": "Punjab",
       "district": "Jalandhar",
       "market": "Nakodar APMC",
       "commodity": "Cauliflower",
@@ -85,6 +184,105 @@
     },
     {
       "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Cauliflower",
+      "variety": "Local",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 3100,
+      "maxPrice": 3100,
+      "modalPrice": 3100
+    },
+    {
+      "state": "Punjab",
+      "district": "Fatehgarh",
+      "market": "Sirhind APMC",
+      "commodity": "Mousambi(Sweet Lime)",
+      "variety": "Other",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 2500,
+      "maxPrice": 3500,
+      "modalPrice": 3000
+    },
+    {
+      "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Bhindi(Ladies Finger)",
+      "variety": "Bhindi",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 620,
+      "maxPrice": 620,
+      "modalPrice": 620
+    },
+    {
+      "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Bitter gourd",
+      "variety": "Bitter Gourd",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 1300,
+      "maxPrice": 1300,
+      "modalPrice": 1300
+    },
+    {
+      "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Green Chilli",
+      "variety": "Green Chilly",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 1010,
+      "maxPrice": 1010,
+      "modalPrice": 1010
+    },
+    {
+      "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Tomato",
+      "variety": "Other",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 664,
+      "maxPrice": 664,
+      "modalPrice": 664
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Rajsamand",
+      "market": "Rajsamand APMC",
+      "commodity": "Tomato",
+      "variety": "Tomato",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 1000,
+      "maxPrice": 1400,
+      "modalPrice": 1200
+    },
+    {
+      "state": "Punjab",
+      "district": "Fatehgarh",
+      "market": "Sirhind APMC",
+      "commodity": "Guava",
+      "variety": "Other",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 4500,
+      "maxPrice": 6000,
+      "modalPrice": 5000
+    },
+    {
+      "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Cucumbar",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 700,
+      "maxPrice": 700,
+      "modalPrice": 700
+    },
+    {
+      "state": "Punjab",
       "district": "Jalandhar",
       "market": "Nakodar APMC",
       "commodity": "Raddish",
@@ -93,6 +291,17 @@
       "minPrice": 1000,
       "maxPrice": 1000,
       "modalPrice": 1000
+    },
+    {
+      "state": "Punjab",
+      "district": "Amritsar",
+      "market": "Rayya APMC",
+      "commodity": "Raddish",
+      "variety": "Other",
+      "arrivalDate": "2026-11-23",
+      "minPrice": 1990,
+      "maxPrice": 1990,
+      "modalPrice": 1990
     },
     {
       "state": "Andhra Pradesh",
@@ -13625,6 +13834,17 @@
       "modalPrice": 3750
     },
     {
+      "state": "Rajasthan",
+      "district": "Rajsamand",
+      "market": "Rajsamand APMC",
+      "commodity": "Onion",
+      "variety": "Onion",
+      "arrivalDate": "2026-11-22",
+      "minPrice": 2000,
+      "maxPrice": 3000,
+      "modalPrice": 2500
+    },
+    {
       "state": "Tamil Nadu",
       "district": "Dharmapuri",
       "market": "A.Jattihalli(Uzhavar Sandhai )",
@@ -16516,6 +16736,17 @@
       "minPrice": 800,
       "maxPrice": 1200,
       "modalPrice": 1000
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Rajsamand",
+      "market": "Rajsamand APMC",
+      "commodity": "Potato",
+      "variety": "Potato",
+      "arrivalDate": "2026-11-22",
+      "minPrice": 1000,
+      "maxPrice": 1400,
+      "modalPrice": 1200
     },
     {
       "state": "Rajasthan",
@@ -46359,6 +46590,17 @@
       "minPrice": 1500,
       "maxPrice": 1800,
       "modalPrice": 1600
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Rajsamand",
+      "market": "Rajsamand APMC",
+      "commodity": "Tomato",
+      "variety": "Tomato",
+      "arrivalDate": "2026-11-22",
+      "minPrice": 1000,
+      "maxPrice": 1500,
+      "modalPrice": 1250
     },
     {
       "state": "Tamil Nadu",
