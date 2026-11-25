@@ -1,11 +1,22 @@
 {
   "version": 1,
   "date": "2026-11-25",
-  "updatedAtMs": 1795569204004,
-  "recordsCount": 95705,
+  "updatedAtMs": 1795571038453,
+  "recordsCount": 95742,
   "statesCount": 30,
   "commoditiesCount": 278,
   "records": [
+    {
+      "state": "Andhra Pradesh",
+      "district": "Nandyal",
+      "market": "Koilkunta APMC",
+      "commodity": "Jowar(Sorghum)",
+      "variety": "Jowar ( White)",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 3500,
+      "maxPrice": 3900,
+      "modalPrice": 3700
+    },
     {
       "state": "Andhra Pradesh",
       "district": "Vijayanagaram",
@@ -75,6 +86,28 @@
     {
       "state": "Andhra Pradesh",
       "district": "Prakasam",
+      "market": "Kondapi APMC",
+      "commodity": "Bengal Gram(Gram)(Whole)",
+      "variety": "Average (Whole)",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 5400,
+      "maxPrice": 5800,
+      "modalPrice": 5600
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Prakasam",
+      "market": "Maddipadu APMC",
+      "commodity": "Bengal Gram(Gram)(Whole)",
+      "variety": "Other",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 6000,
+      "maxPrice": 6000,
+      "modalPrice": 6000
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Prakasam",
       "market": "Darsi APMC",
       "commodity": "Cotton",
       "variety": "Desi",
@@ -82,6 +115,61 @@
       "minPrice": 8100,
       "maxPrice": 8200,
       "modalPrice": 8200
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Palnadu",
+      "market": "Macharla APMC",
+      "commodity": "Cotton",
+      "variety": "Bunny",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 8500,
+      "maxPrice": 8500,
+      "modalPrice": 8500
+    },
+    {
+      "state": "Kerala",
+      "district": "Kottayam",
+      "market": "Kuruppanthura Market",
+      "commodity": "Banana",
+      "variety": "Robusta",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 4600,
+      "maxPrice": 5200,
+      "modalPrice": 4800
+    },
+    {
+      "state": "Kerala",
+      "district": "Kottayam",
+      "market": "Kuruppanthura Market",
+      "commodity": "Banana",
+      "variety": "Palayamthodan",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 1800,
+      "maxPrice": 2000,
+      "modalPrice": 2000
+    },
+    {
+      "state": "Kerala",
+      "district": "Kottayam",
+      "market": "Kuruppanthura Market",
+      "commodity": "Banana",
+      "variety": "Poovan",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 6000,
+      "maxPrice": 6500,
+      "modalPrice": 6500
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Prakasam",
+      "market": "Maddipadu APMC",
+      "commodity": "Bajra(Pearl Millet/Cumbu)",
+      "variety": "Bold",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 2900,
+      "maxPrice": 2900,
+      "modalPrice": 2900
     },
     {
       "state": "Bihar",
@@ -140,6 +228,17 @@
     },
     {
       "state": "Punjab",
+      "district": "Jalandhar",
+      "market": "Lohian Khas APMC",
+      "commodity": "Potato",
+      "variety": "Other",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 300,
+      "maxPrice": 500,
+      "modalPrice": 400
+    },
+    {
+      "state": "Punjab",
       "district": "Amritsar",
       "market": "Rayya APMC",
       "commodity": "Potato",
@@ -183,6 +282,17 @@
       "modalPrice": 2671
     },
     {
+      "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Shekhpura APMC",
+      "commodity": "Brinjal",
+      "variety": "Arkasheela Mattigulla",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 3900,
+      "maxPrice": 4100,
+      "modalPrice": 4000
+    },
+    {
       "state": "Kerala",
       "district": "Alappuzha",
       "market": "Harippad Market",
@@ -192,6 +302,28 @@
       "minPrice": 5000,
       "maxPrice": 5500,
       "modalPrice": 5000
+    },
+    {
+      "state": "Odisha",
+      "district": "Angul",
+      "market": "Pallahara APMC",
+      "commodity": "Brinjal",
+      "variety": "Other",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 3500,
+      "maxPrice": 4500,
+      "modalPrice": 4000
+    },
+    {
+      "state": "Punjab",
+      "district": "Jalandhar",
+      "market": "Lohian Khas APMC",
+      "commodity": "Brinjal",
+      "variety": "Other",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 600,
+      "maxPrice": 1000,
+      "modalPrice": 800
     },
     {
       "state": "Punjab",
@@ -216,6 +348,28 @@
       "modalPrice": 1800
     },
     {
+      "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Shekhpura APMC",
+      "commodity": "Cauliflower",
+      "variety": "African Sarson",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 1400,
+      "maxPrice": 1600,
+      "modalPrice": 1500
+    },
+    {
+      "state": "Punjab",
+      "district": "Jalandhar",
+      "market": "Lohian Khas APMC",
+      "commodity": "Cauliflower",
+      "variety": "Other",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 400,
+      "maxPrice": 600,
+      "modalPrice": 500
+    },
+    {
       "state": "Punjab",
       "district": "Amritsar",
       "market": "Rayya APMC",
@@ -225,6 +379,17 @@
       "minPrice": 3100,
       "maxPrice": 3100,
       "modalPrice": 3100
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Palnadu",
+      "market": "Macharla APMC",
+      "commodity": "Red gram/Arhar/Tur(whole)",
+      "variety": "Local",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 8400,
+      "maxPrice": 8400,
+      "modalPrice": 8400
     },
     {
       "state": "Kerala",
@@ -261,6 +426,17 @@
     },
     {
       "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Barbigha APMC",
+      "commodity": "Bitter gourd",
+      "variety": "Bitter Gourd",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 3950,
+      "maxPrice": 4150,
+      "modalPrice": 4050
+    },
+    {
+      "state": "Bihar",
       "district": "Khagaria",
       "market": "Khagaria APMC",
       "commodity": "Bitter gourd",
@@ -269,6 +445,17 @@
       "minPrice": 2300,
       "maxPrice": 2300,
       "modalPrice": 2300
+    },
+    {
+      "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Shekhpura APMC",
+      "commodity": "Bitter gourd",
+      "variety": "Bitter Gourd",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 3950,
+      "maxPrice": 4150,
+      "modalPrice": 4050
     },
     {
       "state": "Kerala",
@@ -305,6 +492,17 @@
     },
     {
       "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Barbigha APMC",
+      "commodity": "Bottle gourd",
+      "variety": "Bottle Gourd",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 3000,
+      "maxPrice": 3200,
+      "modalPrice": 3100
+    },
+    {
+      "state": "Bihar",
       "district": "Khagaria",
       "market": "Khagaria APMC",
       "commodity": "Bottle gourd",
@@ -313,6 +511,17 @@
       "minPrice": 1200,
       "maxPrice": 1200,
       "modalPrice": 1200
+    },
+    {
+      "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Shekhpura APMC",
+      "commodity": "Bottle gourd",
+      "variety": "Bottle Gourd",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 2950,
+      "maxPrice": 3150,
+      "modalPrice": 3050
     },
     {
       "state": "Kerala",
@@ -447,6 +656,17 @@
       "modalPrice": 4000
     },
     {
+      "state": "Punjab",
+      "district": "Jalandhar",
+      "market": "Lohian Khas APMC",
+      "commodity": "Carrot",
+      "variety": "Other",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 2400,
+      "maxPrice": 2800,
+      "modalPrice": 2600
+    },
+    {
       "state": "Kerala",
       "district": "Idukki",
       "market": "Munnar Market",
@@ -480,6 +700,17 @@
       "modalPrice": 4500
     },
     {
+      "state": "Telangana",
+      "district": "Hyderabad",
+      "market": "Alwal,RBZ",
+      "commodity": "Beetroot",
+      "variety": "Beetroot",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 1900,
+      "maxPrice": 1900,
+      "modalPrice": 1900
+    },
+    {
       "state": "Bihar",
       "district": "Khagaria",
       "market": "Khagaria APMC",
@@ -491,6 +722,28 @@
       "modalPrice": 2000
     },
     {
+      "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Shekhpura APMC",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Cucumbar",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 3900,
+      "maxPrice": 4100,
+      "modalPrice": 4000
+    },
+    {
+      "state": "Punjab",
+      "district": "Jalandhar",
+      "market": "Lohian Khas APMC",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Other",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 1400,
+      "maxPrice": 1800,
+      "modalPrice": 1600
+    },
+    {
       "state": "Kerala",
       "district": "Idukki",
       "market": "Munnar Market",
@@ -500,6 +753,17 @@
       "minPrice": 4500,
       "maxPrice": 4500,
       "modalPrice": 4500
+    },
+    {
+      "state": "Punjab",
+      "district": "Jalandhar",
+      "market": "Lohian Khas APMC",
+      "commodity": "Raddish",
+      "variety": "Other",
+      "arrivalDate": "2026-11-25",
+      "minPrice": 600,
+      "maxPrice": 1000,
+      "modalPrice": 800
     },
     {
       "state": "Punjab",
@@ -16651,6 +16915,28 @@
     },
     {
       "state": "Kerala",
+      "district": "Kottayam",
+      "market": "Kuruppanthura Market",
+      "commodity": "Banana",
+      "variety": "Poovan",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 6000,
+      "maxPrice": 6500,
+      "modalPrice": 6500
+    },
+    {
+      "state": "Kerala",
+      "district": "Kottayam",
+      "market": "Kuruppanthura Market",
+      "commodity": "Banana",
+      "variety": "Robusta",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 4500,
+      "maxPrice": 5000,
+      "modalPrice": 5000
+    },
+    {
+      "state": "Kerala",
       "district": "Thirssur",
       "market": "Kuzhur  VFPCK Market",
       "commodity": "Banana",
@@ -31149,6 +31435,17 @@
     },
     {
       "state": "Punjab",
+      "district": "Jalandhar",
+      "market": "Bhogpur APMC",
+      "commodity": "Potato",
+      "variety": "Local",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 500,
+      "maxPrice": 500,
+      "modalPrice": 500
+    },
+    {
+      "state": "Punjab",
       "district": "Gurdaspur",
       "market": "Dinanagar APMC",
       "commodity": "Potato",
@@ -34482,6 +34779,17 @@
     },
     {
       "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Barbigha APMC",
+      "commodity": "Brinjal",
+      "variety": "Arkasheela Mattigulla",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 3950,
+      "maxPrice": 4150,
+      "modalPrice": 4050
+    },
+    {
+      "state": "Bihar",
       "district": "Madhubani",
       "market": "Benipatti APMC",
       "commodity": "Brinjal",
@@ -34633,6 +34941,17 @@
       "minPrice": 1600,
       "maxPrice": 1800,
       "modalPrice": 1700
+    },
+    {
+      "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Shekhpura APMC",
+      "commodity": "Brinjal",
+      "variety": "Arkasheela Mattigulla",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 3850,
+      "maxPrice": 4050,
+      "modalPrice": 3950
     },
     {
       "state": "Bihar",
@@ -38849,6 +39168,17 @@
     },
     {
       "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Barbigha APMC",
+      "commodity": "Cauliflower",
+      "variety": "African Sarson",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 1350,
+      "maxPrice": 1550,
+      "modalPrice": 1450
+    },
+    {
+      "state": "Bihar",
       "district": "Madhubani",
       "market": "Benipatti APMC",
       "commodity": "Cauliflower",
@@ -38967,6 +39297,17 @@
       "minPrice": 1700,
       "maxPrice": 1900,
       "modalPrice": 1800
+    },
+    {
+      "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Shekhpura APMC",
+      "commodity": "Cauliflower",
+      "variety": "African Sarson",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 1350,
+      "maxPrice": 1550,
+      "modalPrice": 1450
     },
     {
       "state": "Bihar",
@@ -39990,6 +40331,17 @@
       "minPrice": 4000,
       "maxPrice": 4400,
       "modalPrice": 4200
+    },
+    {
+      "state": "Punjab",
+      "district": "Jalandhar",
+      "market": "Bhogpur APMC",
+      "commodity": "Cauliflower",
+      "variety": "Cauliflower",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 1200,
+      "maxPrice": 1200,
+      "modalPrice": 1200
     },
     {
       "state": "Punjab",
@@ -54094,6 +54446,28 @@
       "modalPrice": 1500
     },
     {
+      "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Barbigha APMC",
+      "commodity": "Bitter gourd",
+      "variety": "Bitter Gourd",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 3950,
+      "maxPrice": 4150,
+      "modalPrice": 4050
+    },
+    {
+      "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Shekhpura APMC",
+      "commodity": "Bitter gourd",
+      "variety": "Bitter Gourd",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 3950,
+      "maxPrice": 4150,
+      "modalPrice": 4050
+    },
+    {
       "state": "Chandigarh",
       "district": "Chandigarh",
       "market": "Chandigarh (Grain/F&V) APMC",
@@ -57208,6 +57582,17 @@
     },
     {
       "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Barbigha APMC",
+      "commodity": "Bottle gourd",
+      "variety": "Bottle Gourd",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 3000,
+      "maxPrice": 3200,
+      "modalPrice": 3100
+    },
+    {
+      "state": "Bihar",
       "district": "Aurangabad",
       "market": "Kutumba APMC",
       "commodity": "Bottle gourd",
@@ -57216,6 +57601,17 @@
       "minPrice": 2000,
       "maxPrice": 2100,
       "modalPrice": 2000
+    },
+    {
+      "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Shekhpura APMC",
+      "commodity": "Bottle gourd",
+      "variety": "Bottle Gourd",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 3000,
+      "maxPrice": 3200,
+      "modalPrice": 3100
     },
     {
       "state": "Bihar",
@@ -97050,6 +97446,17 @@
     },
     {
       "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Barbigha APMC",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Cucumbar",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 3950,
+      "maxPrice": 4150,
+      "modalPrice": 4050
+    },
+    {
+      "state": "Bihar",
       "district": "Aurangabad",
       "market": "Kutumba APMC",
       "commodity": "Cucumbar(Kheera)",
@@ -97058,6 +97465,17 @@
       "minPrice": 3000,
       "maxPrice": 3000,
       "modalPrice": 3000
+    },
+    {
+      "state": "Bihar",
+      "district": "Sheikhpura",
+      "market": "Shekhpura APMC",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Cucumbar",
+      "arrivalDate": "2026-11-24",
+      "minPrice": 3900,
+      "maxPrice": 4100,
+      "modalPrice": 4000
     },
     {
       "state": "Chandigarh",
@@ -964177,17 +964595,6 @@
       "minPrice": 4500,
       "maxPrice": 5000,
       "modalPrice": 4800
-    },
-    {
-      "state": "Kerala",
-      "district": "Kottayam",
-      "market": "Kuruppanthura Market",
-      "commodity": "Banana",
-      "variety": "Robusta",
-      "arrivalDate": "2026-11-16",
-      "minPrice": 4800,
-      "maxPrice": 5000,
-      "modalPrice": 5000
     },
     {
       "state": "Kerala",
