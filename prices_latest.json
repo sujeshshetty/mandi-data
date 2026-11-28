@@ -1,8 +1,8 @@
 {
   "version": 1,
   "date": "2026-11-28",
-  "updatedAtMs": 1795827858658,
-  "recordsCount": 95123,
+  "updatedAtMs": 1795829685415,
+  "recordsCount": 95155,
   "statesCount": 30,
   "commoditiesCount": 278,
   "records": [
@@ -64,6 +64,17 @@
     {
       "state": "Andhra Pradesh",
       "district": "Kakinada",
+      "market": "Peddapuram APMC",
+      "commodity": "Paddy(Common)",
+      "variety": "Paddy",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 2441,
+      "maxPrice": 2450,
+      "modalPrice": 2445
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Kakinada",
       "market": "Pithapuram APMC",
       "commodity": "Paddy(Common)",
       "variety": "MTU-1001",
@@ -71,6 +82,28 @@
       "minPrice": 2440,
       "maxPrice": 2460,
       "modalPrice": 2450
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Kakinada",
+      "market": "Prattipadu APMC",
+      "commodity": "Paddy(Common)",
+      "variety": "MTU-1001",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 2441,
+      "maxPrice": 2470,
+      "modalPrice": 2461
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Kakinada",
+      "market": "Samalkot APMC",
+      "commodity": "Paddy(Common)",
+      "variety": "Paddy",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 2339,
+      "maxPrice": 2445,
+      "modalPrice": 2440
     },
     {
       "state": "Andhra Pradesh",
@@ -117,6 +150,39 @@
       "modalPrice": 1500
     },
     {
+      "state": "Kerala",
+      "district": "Malappuram",
+      "market": "Kodakkad  VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Nendra Bale",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 5300,
+      "maxPrice": 5500,
+      "modalPrice": 5400
+    },
+    {
+      "state": "Kerala",
+      "district": "Malappuram",
+      "market": "Pallikkal VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Nendra Bale",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 5300,
+      "maxPrice": 5500,
+      "modalPrice": 5400
+    },
+    {
+      "state": "Kerala",
+      "district": "Malappuram",
+      "market": "Vazhayur VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Nendra Bale",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 5300,
+      "maxPrice": 5500,
+      "modalPrice": 5400
+    },
+    {
       "state": "Bihar",
       "district": "Rohtas",
       "market": "Kochas (Balthari) APMC",
@@ -126,6 +192,39 @@
       "minPrice": 4684,
       "maxPrice": 4684,
       "modalPrice": 4684
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Onion",
+      "variety": "Onion",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 5000,
+      "maxPrice": 5800,
+      "modalPrice": 5400
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Potato",
+      "variety": "Potato",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 3200,
+      "maxPrice": 3600,
+      "modalPrice": 3400
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Black pepper",
+      "variety": "Garbled",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 85000,
+      "maxPrice": 95000,
+      "modalPrice": 90000
     },
     {
       "state": "Andhra Pradesh",
@@ -148,6 +247,226 @@
       "minPrice": 14500,
       "maxPrice": 14540,
       "modalPrice": 14520
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Brinjal",
+      "variety": "Brinjal",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 4000,
+      "maxPrice": 5000,
+      "modalPrice": 4500
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Cauliflower",
+      "variety": "Cauliflower",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 3500,
+      "maxPrice": 4500,
+      "modalPrice": 4000
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Ashgourd",
+      "variety": "Ashgourd",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 3000,
+      "maxPrice": 3400,
+      "modalPrice": 3200
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Bhindi(Ladies Finger)",
+      "variety": "Bhindi",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 4500,
+      "maxPrice": 5000,
+      "modalPrice": 4700
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Bitter gourd",
+      "variety": "Bitter Gourd",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 5000,
+      "maxPrice": 6000,
+      "modalPrice": 5500
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Bottle gourd",
+      "variety": "Bottle Gourd",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 3000,
+      "maxPrice": 3600,
+      "modalPrice": 3300
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Green Chilli",
+      "variety": "Green Chilly",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 5000,
+      "maxPrice": 6000,
+      "modalPrice": 5500
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Pumpkin",
+      "variety": "Pumpkin",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 1500,
+      "maxPrice": 2200,
+      "modalPrice": 1800
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Tomato",
+      "variety": "Tomato",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 3000,
+      "maxPrice": 4000,
+      "modalPrice": 3500
+    },
+    {
+      "state": "Telangana",
+      "district": "Khammam",
+      "market": "Pavilion Ground,Khammam,RBZ",
+      "commodity": "Tomato",
+      "variety": "Deshi",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 3400,
+      "maxPrice": 3400,
+      "modalPrice": 3400
+    },
+    {
+      "state": "Telangana",
+      "district": "Khammam",
+      "market": "Sattupalli (Ramalayam),RBZ",
+      "commodity": "Tomato",
+      "variety": "Tomato",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 3400,
+      "maxPrice": 3400,
+      "modalPrice": 3400
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Banana - Green",
+      "variety": "Banana - Green",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 6000,
+      "maxPrice": 6400,
+      "modalPrice": 6200
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Ginger(Green)",
+      "variety": "Green Ginger",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 6500,
+      "maxPrice": 7500,
+      "modalPrice": 7000
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Tapioca",
+      "variety": "Tapioca",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 2500,
+      "maxPrice": 3300,
+      "modalPrice": 3000
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Cabbage",
+      "variety": "Cabbage",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 3500,
+      "maxPrice": 4300,
+      "modalPrice": 3800
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Carrot",
+      "variety": "Carrot",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 5200,
+      "maxPrice": 5800,
+      "modalPrice": 5400
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Beetroot",
+      "variety": "Beetroot",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 4000,
+      "maxPrice": 4600,
+      "modalPrice": 4400
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Cucumbar",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 2800,
+      "maxPrice": 3600,
+      "modalPrice": 3200
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Drumstick",
+      "variety": "Drumstick",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 8000,
+      "maxPrice": 9000,
+      "modalPrice": 8500
+    },
+    {
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "market": "Perumbavoor Market",
+      "commodity": "Lemon",
+      "variety": "Lemon",
+      "arrivalDate": "2026-11-28",
+      "minPrice": 7500,
+      "maxPrice": 8200,
+      "modalPrice": 7800
     },
     {
       "state": "Andhra Pradesh",
@@ -26166,6 +26485,17 @@
     },
     {
       "state": "Kerala",
+      "district": "Malappuram",
+      "market": "Kodakkad  VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Nendra Bale",
+      "arrivalDate": "2026-11-27",
+      "minPrice": 5300,
+      "maxPrice": 5500,
+      "modalPrice": 5400
+    },
+    {
+      "state": "Kerala",
       "district": "Kozhikode(Calicut)",
       "market": "Kodiyathur VFPCK Market",
       "commodity": "Banana",
@@ -26595,6 +26925,17 @@
     },
     {
       "state": "Kerala",
+      "district": "Malappuram",
+      "market": "Pallikkal VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Nendra Bale",
+      "arrivalDate": "2026-11-27",
+      "minPrice": 5300,
+      "maxPrice": 5500,
+      "modalPrice": 5400
+    },
+    {
+      "state": "Kerala",
       "district": "Thirssur",
       "market": "Pananchery VFPCK Market",
       "commodity": "Banana",
@@ -26889,6 +27230,17 @@
       "minPrice": 5300,
       "maxPrice": 5300,
       "modalPrice": 5300
+    },
+    {
+      "state": "Kerala",
+      "district": "Malappuram",
+      "market": "Vazhayur VFPCK Market",
+      "commodity": "Banana",
+      "variety": "Nendra Bale",
+      "arrivalDate": "2026-11-27",
+      "minPrice": 5300,
+      "maxPrice": 5500,
+      "modalPrice": 5400
     },
     {
       "state": "Kerala",
